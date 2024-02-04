@@ -1,10 +1,12 @@
 ## MFSN-DAEM
 
-Matching Feature Separation Network for Domain Adaptation in Entity Matching
+Paper: Matching Feature Separation Network for Domain Adaptation in Entity Matching
+
+This repository contains six implementations of the MFSN-DAME architectures described in the paper: MFSN-basic-mmd, MFSN-basic-k_order, MFSN-basic-grl, MFSN-FRSE-mmd, MFSN-FRSE-k_order and MFSN-FRSE-grl.
 
 <img src="./readme_figures/MFSN-overview.png" alt="MFSN-overview" style="zoom:25%;" />
 
-This repository contains six implementations of the MFSN-DAME architectures described in the paper: MFSN-basic-mmd, MFSN-basic-k_order, MFSN-basic-grl, MFSN-FRSE-mmd, MFSN-FRSE-k_order and MFSN-FRSE-grl.
+---
 
 ### 1. Installation
 
@@ -50,11 +52,15 @@ Install Transformers
 pip install transformers
 ```
 
+---
+
 ### 2. Datasets
 
  The datasets used in the paper are from [ruc-datalab/DADER](https://github.com/ruc-datalab/DADER).  The statistical information for all datasets is as follows:
 
 <img src="./readme_figures/datasets.png" alt="image-20240128224107155" style="zoom:80%;" />
+
+---
 
 ### 3. How to use
 
